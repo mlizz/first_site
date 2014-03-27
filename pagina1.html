@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Test 1</title>
+<link rel="stylesheet" type="text/css" href="style/style.css" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript" src="javascript/cufon-yui.js"></script>
+<script src="javascript/Indie_Flower_400.font.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+			var wHeight = $(window).height();
+			var ourHeight = wHeight - $('.headerBg').height() - $(".footer_bg").height();
+			$('.main_bg').height(ourHeight);
+			Cufon.replace('#contact li', {'font-family': 'Indie Flower', textShadow: '#3c3a3a 1px 1px, #333 -1px -1px'});
+	});
+</script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="headerBg">
+        	<div id="logo">
+            </div>
+            <a id="home_button" href="pagina1.html"></a>  
+            <a id="despre_button" href="pagina2.html"></a>
+            <a id="portofoliu_button" href="pagina3.html"></a>
+            <a id="diverse_button" href="pagina4.html"></a>
+        </div>
+    </div>
+    <div class="shade_bg">
+    </div>
+    <div class="main_bg">
+    </div>
+    <div class="footer_bg">
+    	<div id="leftContact">
+            	<ul id="contact">
+                	<li> contact: art_of_liz@yahoo.com</li>
+                </ul>
+            </div>
+    </div>
+  
+</body>
+</html>
+

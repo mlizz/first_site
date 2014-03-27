@@ -1,0 +1,137 @@
+html{margin: 0px; padding: 0px;}
+body{
+	margin: 0px;
+	padding: 0px;
+	width: auto;	
+}
+
+#header{
+	width: 100%;
+	height: 86px;	
+}
+
+.headerBg{
+	background:url(../images/header_bg.png) repeat-x;
+	height: 86px;
+	width: 100%;	
+}
+
+#logo{
+	background:url(../images/logo.png) no-repeat;
+	width: 252px;
+	height: 150px;
+	margin-left: 10%;
+	float:left;
+}
+
+#home_button{
+	background:url(../images/home_button.png) no-repeat;
+	width: 91px;
+	height: 40px;
+	margin-left: 10%;
+	margin-top: 2%;
+	float:left;
+}
+
+#home_button:hover{
+	background: url(../images/home_hover.png);
+	width: 91px;
+	height: 40px;
+}
+
+#despre_button{
+	background:url(../images/despre_button.png) no-repeat;
+	width: 146px;
+	height: 40px;
+	margin-left: 4%;
+	margin-top: 2%;
+	float:left;
+}
+
+#despre_button:hover{
+	background:url(../images/despre_hover.png);
+	width: 146px;
+	height: 40px;
+}
+
+#portofoliu_button{
+	background:url(../images/portofoliu_button.png) no-repeat;
+	width: 204px;
+	height: 40px;
+	margin-left: 4%;
+	margin-top: 2%;
+	float:left;
+}
+
+#portofoliu_button:hover{
+	background: url(../images/portofoliu_hover.png);
+	width: 204px;
+	height: 40px;
+}
+	
+#diverse_button{
+	background: url(../images/diverse_button.png) no-repeat;
+	width: 145px;
+	height: 40px;
+	margin-left: 4%;
+	margin-top: 2%;
+	float:left;
+}
+
+#diverse_button:hover{
+	background:url(../images/diverse_hover.png);
+	width: 145px;
+	height: 40px;
+}
+
+.shade_bg{
+	background:url(../images/header_bg.png) repeat-x
+	height: 9px;
+	width: 100%;
+}
+
+.main_bg{
+	background:url(../images/main_bg.png) no-repeat;
+	background-color:  #292826;
+	height: 760px;
+	width: 100%;
+}
+
+.footer_bg{
+	background:url(../images/footer_bg.png) repeat-x;
+	height: 70px;
+	width: 100%;
+}
+
+#leftContact{
+	float: left;
+	width: auto;
+	height:auto;	
+}
+
+#contact {
+	display: inline;
+	vertical-align:middle;
+	list-style-type: none;	
+}
+
+#contact li{
+	color: #b9b9b7;
+	font-size: 28px;
+	display: inline;	
+}
+
+#img_despre_pg2{
+	background:url(../images/img_despre_pg2.png);
+	margin-right: 10%;
+	margin-top: 8%;
+	width: 382px;
+	float: right;
+}
+
+#meniu_portofoliu{
+	background:url(../images/meniu_portofoliu.png);
+	margin-left: 5%;
+	margin-top: 2%;
+	width: 225px;
+}
